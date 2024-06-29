@@ -27,7 +27,7 @@ B:
 Please enter your choice:
 1
 Please enter the path of your file:
-C:\Users\xbpow\Downloads\testMmn13\inputSortedHeap1.txt
+C:\Users\inputSortedHeap1.txt
 A = [-5, -3, -3, 0, 1, 2, 3, 3, 5, 8, 15, 61]
 B = []
 Which of the following operations you wish to do next?
@@ -48,7 +48,7 @@ B:
 Please enter your choice:
 6
 Please enter the path of your file:
-C:\Users\xbpow\Downloads\testMmn13\inputSortedHeap2.txt
+C:\Users\inputSortedHeap2.txt
 A = [-5, -3, -3, 0, 1, 2, 3, 3, 5, 8, 15, 61]
 B = [-5, -1, 0, 1, 2, 3, 6, 21, 24, 35]
 Which of the following operations you wish to do next?
