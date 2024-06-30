@@ -1,6 +1,14 @@
 import java.util.Scanner;
 
+/**
+ * Main class to handle user interaction for choosing and implementing different heap structures.
+ */
 public class Main {
+    /**
+     * Main method that initiates the user interface and handles user choices for heap implementations.
+     * 
+     * @param args Command line arguments (not used).
+     */
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
 
