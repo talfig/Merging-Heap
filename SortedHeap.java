@@ -126,6 +126,7 @@ public class SortedHeap extends Heap {
      *
      * @param value the value to be inserted
      */
+    @Override
     public void insert(int value) {
         Node node = new Node(value); // Creating a new node with the specified value
 
@@ -162,6 +163,7 @@ public class SortedHeap extends Heap {
      *
      * @param arr the array of integers
      */
+    @Override
     public void makeHeap(int[] arr) {
         delHeap(); // Clearing the existing heap
         ArrayUtils.mergeSort(arr); // Sorting the array
@@ -181,6 +183,7 @@ public class SortedHeap extends Heap {
      *
      * @return the minimum value in the heap, or Integer.MAX_VALUE if the heap is empty
      */
+    @Override
     public int getMinVal() {
         if (head != null)
             return head.getValue();
@@ -192,6 +195,7 @@ public class SortedHeap extends Heap {
      *
      * @return the minimum value in the heap, or Integer.MAX_VALUE if the heap is empty
      */
+    @Override
     public int extractMin() {
         if (head == null)
             return Integer.MAX_VALUE;
@@ -216,6 +220,7 @@ public class SortedHeap extends Heap {
      *
      * @param other the other heap to be merged
      */
+    @Override
     public void unionHeap(SortedHeap other) {
         SortedHeap unionHeap = new SortedHeap();
         Node ptr1 = head; // Pointer to traverse the current heap
@@ -257,6 +262,7 @@ public class SortedHeap extends Heap {
      * Prints the heap in sorted order.
      * At the end, the heap is empty.
      */
+    @Override
     public void sortHeap() {
         if (head == null) { // If the heap is empty
             System.out.println("[]");
