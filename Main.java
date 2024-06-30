@@ -26,10 +26,10 @@ public class Main {
 
             switch(choice) {
                 case 1:
-                    Program.heapImplementation(true); // Call the method for Min-Heap implementation
+                    Program.heapImplement(true); // Call the method for Min-Heap implementation
                     break;
                 case 2:
-                    Program.heapImplementation(false); // Call the method for Sorted-Heap implementation
+                    Program.heapImplement(false); // Call the method for Sorted-Heap implementation
                     break;
                 default:
                     System.out.println("You have entered a wrong number of implementation!");
