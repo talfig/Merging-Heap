@@ -30,7 +30,7 @@ public class Program {
     /**
      * Runs the user interface for manipulating Heap objects.
      */
-    public static void heapImplementation(boolean isMinHeap) {
+    public static void heapImplement(boolean isMinHeap) {
         Heap A, B;
         if(isMinHeap) {
             A = new MinHeap();
