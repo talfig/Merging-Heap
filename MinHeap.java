@@ -132,6 +132,7 @@ public class MinHeap extends Heap {
      *
      * @param value the value to be inserted
      */
+    @Override
     public void insert(int value) {
         Node node = new Node(value); // Create a new node with the given value
 
@@ -155,6 +156,7 @@ public class MinHeap extends Heap {
      *
      * @param arr the array of integers
      */
+    @Override
     public void makeHeap(int[] arr) {
         delHeap();
 
@@ -167,6 +169,7 @@ public class MinHeap extends Heap {
      *
      * @return the minimum value in the heap, or Integer.MAX_VALUE if the heap is empty
      */
+    @Override
     public int getMinVal() {
         if (min != null)
             return min.getValue();
@@ -178,6 +181,7 @@ public class MinHeap extends Heap {
      *
      * @return the minimum value in the heap, or Integer.MAX_VALUE if the heap is empty
      */
+    @Override
     public int extractMin() {
         if (head == null) // If the heap is empty
             return Integer.MAX_VALUE;
@@ -218,6 +222,7 @@ public class MinHeap extends Heap {
      *
      * @param other the other heap to be merged
      */
+    @Override
     public void unionHeap(MinHeap other) {
         MinHeap unionHeap = null;
         if (head != null && other.head != null) { // If both heaps are not empty
@@ -243,6 +248,7 @@ public class MinHeap extends Heap {
      * Prints the heap in sorted order.
      * At the end, the heap is empty.
      */
+    @Override
     public void sortHeap() {
         if (head == null) { // If the heap is empty
             System.out.println("[]");
