@@ -32,10 +32,13 @@ public class Program {
      */
     public static void heapImplement(boolean isMinHeap) {
         Heap A, B;
+        // Initialize two heap instances based on the isMinHeap flag
         if(isMinHeap) {
+            // If isMinHeap is true, create two instances of MinHeap
             A = new MinHeap();
             B = new MinHeap();
         } else {
+            // If isMinHeap is false, create two instances of SortedHeap
             A = new SortedHeap();
             B = new SortedHeap();
         }
