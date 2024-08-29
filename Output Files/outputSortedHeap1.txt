@@ -1,0 +1,269 @@
+Which of the following choices do you wish to use to implement the heap?
+1. Minimum-Heap
+2. Sorted-Heap
+Please enter your choice:
+2
+Which of the following operations you wish to do next?
+A:
+	1. Make-Heap
+	2. Insert
+	3. Minimum
+	4. Extract-Minimum
+	5. Heap-Sort
+B:
+	6. Make-Heap
+	7. Insert
+	8. Minimum
+	9. Extract-Minimum
+	10. Heap-Sort
+11. Union
+12. Stop
+Please enter your choice:
+1
+Please enter the path of your file:
+C:\Users\inputSortedHeap1.txt
+A = [-5, -3, -3, 0, 1, 2, 3, 3, 5, 8, 15, 61]
+B = []
+Which of the following operations you wish to do next?
+A:
+	1. Make-Heap
+	2. Insert
+	3. Minimum
+	4. Extract-Minimum
+	5. Heap-Sort
+B:
+	6. Make-Heap
+	7. Insert
+	8. Minimum
+	9. Extract-Minimum
+	10. Heap-Sort
+11. Union
+12. Stop
+Please enter your choice:
+2
+Please enter the number you wish to add:
+-6
+A = [-6, -5, -3, -3, 0, 1, 2, 3, 3, 5, 8, 15, 61]
+B = []
+Which of the following operations you wish to do next?
+A:
+	1. Make-Heap
+	2. Insert
+	3. Minimum
+	4. Extract-Minimum
+	5. Heap-Sort
+B:
+	6. Make-Heap
+	7. Insert
+	8. Minimum
+	9. Extract-Minimum
+	10. Heap-Sort
+11. Union
+12. Stop
+Please enter your choice:
+3
+The minimum is:
+-6
+A = [-6, -5, -3, -3, 0, 1, 2, 3, 3, 5, 8, 15, 61]
+B = []
+Which of the following operations you wish to do next?
+A:
+	1. Make-Heap
+	2. Insert
+	3. Minimum
+	4. Extract-Minimum
+	5. Heap-Sort
+B:
+	6. Make-Heap
+	7. Insert
+	8. Minimum
+	9. Extract-Minimum
+	10. Heap-Sort
+11. Union
+12. Stop
+Please enter your choice:
+4
+-6 has been extracted.
+A = [-5, -3, -3, 0, 1, 2, 3, 3, 5, 8, 15, 61]
+B = []
+Which of the following operations you wish to do next?
+A:
+	1. Make-Heap
+	2. Insert
+	3. Minimum
+	4. Extract-Minimum
+	5. Heap-Sort
+B:
+	6. Make-Heap
+	7. Insert
+	8. Minimum
+	9. Extract-Minimum
+	10. Heap-Sort
+11. Union
+12. Stop
+Please enter your choice:
+5
+Sorted A = [-5, -3, -3, 0, 1, 2, 3, 3, 5, 8, 15, 61]
+A = []
+B = []
+Which of the following operations you wish to do next?
+A:
+	1. Make-Heap
+	2. Insert
+	3. Minimum
+	4. Extract-Minimum
+	5. Heap-Sort
+B:
+	6. Make-Heap
+	7. Insert
+	8. Minimum
+	9. Extract-Minimum
+	10. Heap-Sort
+11. Union
+12. Stop
+Please enter your choice:
+6
+Please enter the path of your file:
+C:\Users\inputSortedHeap2.txt
+A = []
+B = [-5, -1, 0, 1, 2, 3, 6, 21, 24, 35]
+Which of the following operations you wish to do next?
+A:
+	1. Make-Heap
+	2. Insert
+	3. Minimum
+	4. Extract-Minimum
+	5. Heap-Sort
+B:
+	6. Make-Heap
+	7. Insert
+	8. Minimum
+	9. Extract-Minimum
+	10. Heap-Sort
+11. Union
+12. Stop
+Please enter your choice:
+7
+Please enter the number you wish to add:
+4
+A = []
+B = [-5, -1, 0, 1, 2, 3, 4, 6, 21, 24, 35]
+Which of the following operations you wish to do next?
+A:
+	1. Make-Heap
+	2. Insert
+	3. Minimum
+	4. Extract-Minimum
+	5. Heap-Sort
+B:
+	6. Make-Heap
+	7. Insert
+	8. Minimum
+	9. Extract-Minimum
+	10. Heap-Sort
+11. Union
+12. Stop
+Please enter your choice:
+8
+The minimum is:
+-5
+A = []
+B = [-5, -1, 0, 1, 2, 3, 4, 6, 21, 24, 35]
+Which of the following operations you wish to do next?
+A:
+	1. Make-Heap
+	2. Insert
+	3. Minimum
+	4. Extract-Minimum
+	5. Heap-Sort
+B:
+	6. Make-Heap
+	7. Insert
+	8. Minimum
+	9. Extract-Minimum
+	10. Heap-Sort
+11. Union
+12. Stop
+Please enter your choice:
+9
+-5 has been extracted.
+A = []
+B = [-1, 0, 1, 2, 3, 4, 6, 21, 24, 35]
+Which of the following operations you wish to do next?
+A:
+	1. Make-Heap
+	2. Insert
+	3. Minimum
+	4. Extract-Minimum
+	5. Heap-Sort
+B:
+	6. Make-Heap
+	7. Insert
+	8. Minimum
+	9. Extract-Minimum
+	10. Heap-Sort
+11. Union
+12. Stop
+Please enter your choice:
+9
+-1 has been extracted.
+A = []
+B = [0, 1, 2, 3, 4, 6, 21, 24, 35]
+Which of the following operations you wish to do next?
+A:
+	1. Make-Heap
+	2. Insert
+	3. Minimum
+	4. Extract-Minimum
+	5. Heap-Sort
+B:
+	6. Make-Heap
+	7. Insert
+	8. Minimum
+	9. Extract-Minimum
+	10. Heap-Sort
+11. Union
+12. Stop
+Please enter your choice:
+11
+A = [0, 1, 2, 3, 4, 6, 21, 24, 35]
+B = []
+Which of the following operations you wish to do next?
+A:
+	1. Make-Heap
+	2. Insert
+	3. Minimum
+	4. Extract-Minimum
+	5. Heap-Sort
+B:
+	6. Make-Heap
+	7. Insert
+	8. Minimum
+	9. Extract-Minimum
+	10. Heap-Sort
+11. Union
+12. Stop
+Please enter your choice:
+10
+Sorted B = []
+A = [0, 1, 2, 3, 4, 6, 21, 24, 35]
+B = []
+Which of the following operations you wish to do next?
+A:
+	1. Make-Heap
+	2. Insert
+	3. Minimum
+	4. Extract-Minimum
+	5. Heap-Sort
+B:
+	6. Make-Heap
+	7. Insert
+	8. Minimum
+	9. Extract-Minimum
+	10. Heap-Sort
+11. Union
+12. Stop
+Please enter your choice:
+12
+
+Process finished with exit code 0
